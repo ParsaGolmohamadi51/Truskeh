@@ -1,47 +1,43 @@
 import { Link } from "react-router-dom";
-import Button from "../ui/button";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 const Header = () => {
   return (
-    <header className="w-full p-5 flex justify-between items-center shadow-md">
+    <header className="w-full p-5 flex justify-between items-center shadow-md bg-white text-black dark:bg-gray-900 dark:text-white">
       <div className="flex justify-center items-center">
         <span className="ml-4">Logo</span>
-        <Link to="/" className="ml-4">
-          خانه
-        </Link>
-        <Link to="/bootcamps" className="ml-4">
-          بوت کمپ ها
-        </Link>
-        <Link to="/about" className="ml-4">
-          درباره ما
-        </Link>
       </div>
-      <form class="relative">
-        <span class="absolute inset-y-0 left-0 flex items-center pl-3">
-          <svg class="w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="none">
-            <path
-              d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>
-          </svg>
-        </span>
-        <input
-          type="text"
-          class="w-full py-2 pl-10 pr-4 text-gray-700 bg-white border-b border-gray-400 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600
-         focus:outline-none focus:ring-0 focus:gray-blue-500"
-          placeholder="جستجو..."
-        />
-      </form>
       <div>
-        <Button className="ml-4" variant="outline" size="medium">
-          ورود
-        </Button>
-        <Button variant="primary" size="medium">
-          ثبت نام
-        </Button>
+        <div className="flex items-center gap-1">
+          <Link to="/" className="ml-4">
+            خانه
+          </Link>
+          <Link to="/bootcamps" className="ml-4">
+            بوت کمپ ها
+          </Link>
+          <Link to="/about" className="ml-4">
+            درباره ما
+          </Link>
+        </div>
+      </div>
+      <div className="flex">
+        <Link>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-10 h-10 p-2 ml-2 rounded bg-gray-200 dark:bg-gray-800 dark:text-white"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+            />
+          </svg>
+        </Link>
+        <ThemeSwitcher />
       </div>
     </header>
   );
