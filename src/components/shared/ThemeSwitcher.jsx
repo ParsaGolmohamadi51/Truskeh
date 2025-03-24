@@ -6,7 +6,7 @@ const ThemeSwitcher = () => {
 
   return (
     <button
-      className="p-2 rounded bg-gray-200 dark:bg-gray-800 dark:text-white"
+      className="p-2 rounded-full text-gray-600 bg-gray-100 dark:bg-gray-700 dark:text-white group transition-colors duration-300"
       onClick={() => setDarkMode(!darkMode)}
     >
       {darkMode ? (
@@ -16,7 +16,7 @@ const ThemeSwitcher = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-4 h-4 md:w-6 md:h-6 group-hover:text-orange-500 transition-colors duration-200"
         >
           <path
             strokeLinecap="round"
@@ -31,7 +31,7 @@ const ThemeSwitcher = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-4 h-4 md:w-6 md:h-6 group-hover:text-orange-500 transition-colors duration-200"
         >
           <path
             strokeLinecap="round"
