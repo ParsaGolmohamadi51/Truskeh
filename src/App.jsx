@@ -1,13 +1,19 @@
 import { Outlet } from "react-router-dom";
-import { ThemeProvider } from "../src/context/ThemeContext";
+import { ThemeProvider } from "./context/ThemeContext";
+import Header from "./components/shared/header";
+import Footer from "./components/shared/footer";
 
 const App = () => {
   return (
-    <div>
-      <ThemeProvider>
-        <Outlet /> {/* اینجا صفحات فرزند نمایش داده می‌شوند */}
-      </ThemeProvider>
-    </div>
+    <ThemeProvider>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-1">
+          <Outlet />
+        </main>
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 };
 

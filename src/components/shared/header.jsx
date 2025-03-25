@@ -73,7 +73,7 @@ const Header = () => {
           { to: "/", label: "خانه" },
           { to: "/bootcamps", label: "بوت‌کمپ‌ها" },
           { to: "/services", label: "حوزه‌های فعالیت" },
-          { to: "/contact", label: "تماس باما" },
+          { to: "/order", label: "سفارش سایت" },
           { to: "/about", label: "درباره ما" },
         ].map(({ to, label }) => (
           <Link
@@ -100,7 +100,7 @@ const Header = () => {
             strokeWidth={1.5}
             stroke="currentColor"
             className="w-8 h-8 md:w-10 md:h-10 p-2 rounded-full text-gray-600 bg-gray-100 dark:bg-gray-700 dark:text-white 
-               group-hover:text-blue-500 dark:group-hover:text-orange-500 transition-colors duration-200"
+               group-hover:text-green-800 dark:group-hover:text-orange-500 transition-colors duration-200"
           >
             <path
               strokeLinecap="round"

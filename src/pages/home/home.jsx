@@ -1,9 +1,7 @@
-import Header from "../../components/shared/header";
-
 const Home = () => {
   return (
     <>
-      <Header />
+      صفحه اصلی
     </>
   );
 };
