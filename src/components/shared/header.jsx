@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import ThemeSwitcher from "./ThemeSwitcher";
 import imgLogoLight from "../../assets/images/logo-long-light.jpg";
-import imgLogoDark from "../../assets/images/logo-long-dark.jpg";
+import imgLogoDark from "../../assets/images/logo-long-dark-removebg.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,12 +53,12 @@ const Header = () => {
       <div className="flex justify-center items-center absolute left-1/2 transform -translate-x-1/2 md:translate-x-0 md:static">
         <img
           src={imgLogoLight}
-          className="w-auto h-9 block dark:hidden md:w-auto"
+          className="w-auto h-12 block dark:hidden md:w-auto"
           alt="Light Logo"
         />
         <img
           src={imgLogoDark}
-          className="w-auto h-9 hidden dark:block md:w-auto"
+          className="w-auto h-12 hidden dark:block md:w-auto"
           alt="Dark Logo"
         />
       </div>
@@ -82,10 +82,10 @@ const Header = () => {
             className="relative group transition-all duration-300 overflow-hidden px-2 py-1"
             onClick={() => setIsMenuOpen(false)}
           >
-            <span className="relative block transition-colors duration-300 group-hover:text-orange-500">
+            <span className="relative block transition-colors duration-300 group-hover:text-blue-500 dark:group-hover:text-orange-500">
               {label}
             </span>
-            <span className="absolute inset-x-0 bottom-0 h-[2px] bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+            <span className="absolute inset-x-0 bottom-0 h-[2px] bg-blue-500 dark:bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
           </Link>
         ))}
       </nav>
@@ -100,7 +100,7 @@ const Header = () => {
             strokeWidth={1.5}
             stroke="currentColor"
             className="w-8 h-8 md:w-10 md:h-10 p-2 rounded-full text-gray-600 bg-gray-100 dark:bg-gray-700 dark:text-white 
-               group-hover:text-orange-500 transition-colors duration-200"
+               group-hover:text-blue-500 dark:group-hover:text-orange-500 transition-colors duration-200"
           >
             <path
               strokeLinecap="round"
