@@ -1,11 +1,11 @@
 import imgLogoLight from "../../assets/images/logo-light.jpg";
 import imgLogoDark from "../../assets/images/logo-dark-rbg.png";
-import { Link, Links } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
-      <div className="p-2 sm:p-8 flex flex-wrap flex-row justify-around items-center gap-8 shadow-[0_0_10px_rgba(0,0,0,0.2)] dark:shadow-orange-700 dark:text-white">
+      <div className="p-2 sm:p-8 flex flex-wrap flex-row justify-around items-center gap-8 shadow-[0_0_10px_rgba(34,197,94,0.5)] dark:shadow-orange-700 dark:text-white">
         <div className="w-[36rem] flex flex-col gap-6">
           <img
             src={imgLogoLight}

@@ -12,6 +12,7 @@ const Button = ({ children, variant = "primary", size = "medium", onClick, class
   const variantStyles = {
     primary: "bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800",
     outline: "border border-gray-600 text-gray-600 hover:border-gray-800 hover:text-gray-800",
+    green: "border border-green-200 bg-green-500 text-white hover:bg-green-800"
   };
 
   return (

@@ -8,7 +8,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="w-full p-3 md:p-5 flex justify-between items-center shadow-md bg-white text-black dark:bg-gray-900 dark:text-white dark:shadow-orange-700 relative">
+    <header className="w-full p-3 md:p-5 flex justify-between items-center shadow-md shadow-green-500/50 bg-white text-black dark:bg-gray-900 dark:text-white dark:shadow-orange-700 relative">
+
       {/* دکمه باز و بسته کردن منو */}
       <button
         className="md:hidden p-2 rounded bg-gray-200 dark:bg-gray-700 transition-transform duration-300"
@@ -82,10 +83,10 @@ const Header = () => {
             className="relative group transition-all duration-300 overflow-hidden px-2 py-1"
             onClick={() => setIsMenuOpen(false)}
           >
-            <span className="relative block transition-colors duration-300 group-hover:text-blue-500 dark:group-hover:text-orange-500">
+            <span className="relative block transition-colors duration-300 group-hover:text-green-900 dark:group-hover:text-orange-500">
               {label}
             </span>
-            <span className="absolute inset-x-0 bottom-0 h-[2px] bg-blue-500 dark:bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+            <span className="absolute inset-x-0 bottom-0 h-[2px] bg-green-900 dark:bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
           </Link>
         ))}
       </nav>
@@ -100,7 +101,7 @@ const Header = () => {
             strokeWidth={1.5}
             stroke="currentColor"
             className="w-8 h-8 md:w-10 md:h-10 p-2 rounded-full text-gray-600 bg-gray-100 dark:bg-gray-700 dark:text-white 
-               group-hover:text-blue-500 dark:group-hover:text-orange-500 transition-colors duration-200"
+               group-hover:text-green-900 dark:group-hover:text-orange-500 transition-colors duration-200"
           >
             <path
               strokeLinecap="round"

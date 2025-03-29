@@ -15,9 +15,16 @@ const Card = ({ img, title, text, to }) => {
         <p className="text-left">{title}</p>
         <p>{text}</p>
         <Button
+          variant="green"
+          size="medium"
+          className="relative overflow-hidden transition-all duration-300 before:absolute before:inset-0 before:bg-white before:opacity-0 hover:before:opacity-10 block dark:hidden"
+        >
+          <Link to={to}>ثبت نام</Link>
+        </Button>
+        <Button
           variant="primary"
           size="medium"
-          className="relative overflow-hidden transition-all duration-300 before:absolute before:inset-0 before:bg-white before:opacity-0 hover:before:opacity-10"
+          className="relative overflow-hidden transition-all duration-300 before:absolute before:inset-0 before:bg-white before:opacity-0 hover:before:opacity-10 hidden dark:block"
         >
           <Link to={to}>ثبت نام</Link>
         </Button>

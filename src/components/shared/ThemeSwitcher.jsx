@@ -31,7 +31,7 @@ const ThemeSwitcher = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-4 h-4 md:w-6 md:h-6 group-hover:text-blue-500 dark:group-hover:text-orange-500 transition-colors duration-200"
+          className="w-4 h-4 md:w-6 md:h-6 group-hover:text-green-900 dark:group-hover:text-orange-500 transition-colors duration-200"
         >
           <path
             strokeLinecap="round"
