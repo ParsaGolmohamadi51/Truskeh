@@ -3,7 +3,7 @@ import Button from "./button";
 
 const Card = ({ img, title, text, to }) => {
   return (
-    <div className="w-80 h-[29rem] bg-white dark:bg-gray-800 dark:text-white rounded-lg shadow-[0_0_10px_rgba(0,0,0,0.2)]">
+    <div className="w-80 bg-white dark:bg-gray-800 dark:text-white rounded-lg shadow-[0_0_10px_rgba(0,0,0,0.2)]">
       <img
         src={img}
         alt="img"
