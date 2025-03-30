@@ -29,26 +29,26 @@ const Footer = () => {
           <li className="font-bold">لینک‌های کاربردی</li>
           <li className="cursor-pointer relative group">
             <span className="relative block overflow-hidden">
-              <span className="transition-colors duration-300 group-hover:text-blue-500 dark:group-hover:text-orange-500">
+              <span className="transition-colors duration-300 group-hover:text-green-500 dark:group-hover:text-orange-500">
                 <Link to="/about">درباره ما</Link>
               </span>
-              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-green-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
             </span>
           </li>
           <li className="cursor-pointer relative group">
             <span className="relative block overflow-hidden">
-              <span className="transition-colors duration-300 group-hover:text-blue-500 dark:group-hover:text-orange-500">
+              <span className="transition-colors duration-300 group-hover:text-green-500 dark:group-hover:text-orange-500">
                 <Link to="/bootcamps">دوره‌های بوت کمپ</Link>
               </span>
-              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-green-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
             </span>
           </li>
           <li className="cursor-pointer relative group">
             <span className="relative block overflow-hidden">
-              <span className="transition-colors duration-300 group-hover:text-blue-500 dark:group-hover:text-orange-500">
+              <span className="transition-colors duration-300 group-hover:text-green-500 dark:group-hover:text-orange-500">
                 <Link to="/contact">تماس باما</Link>
               </span>
-              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-green-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
             </span>
           </li>
         </ul>
@@ -57,26 +57,26 @@ const Footer = () => {
           <li className="font-bold">اطلاعات تماس</li>
           <li className="relative group">
             <span className="relative block overflow-hidden">
-              <span className="transition-colors duration-300 group-hover:text-blue-500 dark:group-hover:text-orange-500">
+              <span className="transition-colors duration-300 group-hover:text-green-500 dark:group-hover:text-orange-500">
                 شماره تماس: 0873313245
               </span>
-              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-green-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
             </span>
           </li>
           <li className="relative group">
             <span className="relative block overflow-hidden">
-              <span className="transition-colors duration-300 group-hover:text-blue-500 dark:group-hover:text-orange-500">
-                ایمیل: truskeh@gmail.com
+              <span className="transition-colors duration-300 group-hover:text-green-500 dark:group-hover:text-orange-500">
+                ایمیل: truskehcompany@gmail.com
               </span>
-              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-green-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
             </span>
           </li>
           <li className="relative group">
             <span className="relative block overflow-hidden">
-              <span className="transition-colors duration-300 group-hover:text-blue-500 dark:group-hover:text-orange-500">
+              <span className="transition-colors duration-300 group-hover:text-green-500 dark:group-hover:text-orange-500">
                 پاسخگویی: 8 صبح تا 6 عصر
               </span>
-              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-blue-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-green-500 dark:bg-orange-500 group-hover:scale-x-100 scale-x-0 origin-right transition-all duration-300"></span>
             </span>
           </li>
         </ul>

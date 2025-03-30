@@ -83,10 +83,10 @@ const Header = () => {
             className="relative group transition-all duration-300 overflow-hidden px-2 py-1"
             onClick={() => setIsMenuOpen(false)}
           >
-            <span className="relative block transition-colors duration-300 group-hover:text-green-900 dark:group-hover:text-orange-500">
+            <span className="relative block transition-colors duration-300 group-hover:text-green-500 dark:group-hover:text-orange-500">
               {label}
             </span>
-            <span className="absolute inset-x-0 bottom-0 h-[2px] bg-green-900 dark:bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+            <span className="absolute inset-x-0 bottom-0 h-[2px] bg-green-500 dark:bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
           </Link>
         ))}
       </nav>
@@ -101,7 +101,7 @@ const Header = () => {
             strokeWidth={1.5}
             stroke="currentColor"
             className="w-8 h-8 md:w-10 md:h-10 p-2 rounded-full text-gray-600 bg-gray-100 dark:bg-gray-700 dark:text-white 
-               group-hover:text-green-900 dark:group-hover:text-orange-500 transition-colors duration-200"
+               group-hover:text-green-500 dark:group-hover:text-orange-500 transition-colors duration-200"
           >
             <path
               strokeLinecap="round"
