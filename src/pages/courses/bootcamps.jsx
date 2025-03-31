@@ -1,4 +1,4 @@
-import Card from "../../components/ui/BootcampCard";
+import Card from "../../components/ui/CardBootcamp";
 import TextSection from "../../components/TextSection";
 import imgFrontEnd from "../../assets/images/Front-End.jpg";
 import imgBackEnd from "../../assets/images/Back-End.jpg";

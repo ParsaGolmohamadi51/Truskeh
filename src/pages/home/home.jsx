@@ -1,9 +1,11 @@
 import TextSection from "../../components/TextSection";
 import ActivityCard from "../../components/ui/ActivityCard";
+import PersonalCard from "../../components/ui/PersonnelCard";
 import imgWeb from "../../assets/images/web.jpg";
 import imgGame from "../../assets/images/game.jpg";
 import imgBootcamp from "../../assets/images/bootcamp.jpg";
 import imgCreate from "../../assets/images/create.jpg";
+import personalParsa from "../../assets/images/personal-img/parsaImg.png";
 
 const Home = () => {
   return (
@@ -60,6 +62,46 @@ const Home = () => {
             </div>
           }
         />
+      </div>
+      <div className="sm:pb-14 sm:px-14 pb-4 px-4">
+        <TextSection title={"اعضای اصلی شرکت"} className="dark:text-white mt-8 sm:mt-0" />
+        <div className="flex flex-row flex-wrap gap-6 justify-center ">
+          <PersonalCard
+            img={personalParsa}
+            name={"پارسا گلمحمدی"}
+            description={"برنامه نویس سینیور فرانت اند"}
+            position="فرانت اند"
+            email={"parsa.jobs.gol"}
+          />
+          <PersonalCard
+            img={personalParsa}
+            name={"پارسا گلمحمدی"}
+            description={"برنامه نویس سینیور فرانت اند"}
+            position="فرانت اند"
+            email={"parsa.jobs.gol"}
+          />
+          <PersonalCard
+            img={personalParsa}
+            name={"پارسا گلمحمدی"}
+            description={"برنامه نویس سینیور فرانت اند"}
+            position="فرانت اند"
+            email={"parsa.jobs.gol"}
+          />
+          <PersonalCard
+            img={personalParsa}
+            name={"پارسا گلمحمدی"}
+            description={"برنامه نویس سینیور فرانت اند"}
+            position="فرانت اند"
+            email={"parsa.jobs.gol"}
+          />
+          <PersonalCard
+            img={personalParsa}
+            name={"پارسا گلمحمدی"}
+            description={"برنامه نویس سینیور فرانت اند"}
+            position="فرانت اند"
+            email={"parsa.jobs.gol"}
+          />
+        </div>
       </div>
     </>
   );
