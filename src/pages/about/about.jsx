@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-200 min-h-screen py-12 px-6 sm:px-16 flex flex-col items-center">
       <section className="max-w-4xl text-center">
-        <h1 className="text-2xl sm:text-3xl font-extrabold text-green-600 dark:text-orange-400 mb-4">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-green-600 dark:text-orange-500 mb-4">
           درباره تروسکه
         </h1>
         <p className="text-base sm:text-lg leading-relaxed">
@@ -58,7 +58,7 @@ const About = () => {
       </section>
 
       <section className="mt-12 max-w-4xl text-center bg-gray-200 dark:bg-gray-800 p-6 rounded-lg shadow-md">
-        <h2 className="text-xl sm:text-3xl font-bold text-green-600 dark:text-orange-400 mb-4">
+        <h2 className="text-xl sm:text-3xl font-bold text-green-600 dark:text-orange-500 mb-4">
           همکاری با ما
         </h2>
         <p className="text-base">فرصت همکاری در قالب‌های زیر وجود دارد:</p>
