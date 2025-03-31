@@ -64,7 +64,7 @@ const bootcampSections = [
 const Bootcamps = () => {
   return (
     <>
-      <div className="p-4 sm:p-10 dark:text-white">
+      <div className="p-0 sm:p-10 dark:text-white">
         {bootcampSections.map((section, index) => (
           <TextSection
             key={index}
