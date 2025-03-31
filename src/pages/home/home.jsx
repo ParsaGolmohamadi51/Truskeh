@@ -64,7 +64,10 @@ const Home = () => {
         />
       </div>
       <div className="sm:pb-14 sm:px-14 pb-4 px-4">
-        <TextSection title={"اعضای اصلی شرکت"} className="dark:text-white mt-8 sm:mt-0" />
+        <TextSection
+          title={"اعضای اصلی شرکت"}
+          className="dark:text-white mt-8 sm:mt-0"
+        />
         <div className="flex flex-row flex-wrap gap-6 justify-center ">
           <PersonalCard
             img={personalParsa}
