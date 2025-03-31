@@ -1,11 +1,11 @@
-import Card from "../../components/ui/card";
+import Card from "../../components/ui/BootcampCard";
 import TextSection from "../../components/TextSection";
 import imgFrontEnd from "../../assets/images/Front-End.jpg";
 import imgBackEnd from "../../assets/images/Back-End.jpg";
 import imgSEO from "../../assets/images/SEO.jpg";
 import imgUI from "../../assets/images/UI.jpg";
 import imgICDL from "../../assets/images/ICDL.jpg";
-import imgWordPress from "../../assets/images/Word-Press.jpg"
+import imgWordPress from "../../assets/images/Word-Press.jpg";
 
 const bootcampData = [
   {
@@ -63,28 +63,30 @@ const bootcampSections = [
 
 const Bootcamps = () => {
   return (
-    <div className="p-4 sm:p-10 dark:text-white">
-      {bootcampSections.map((section, index) => (
-        <TextSection
-          key={index}
-          title={section.title}
-          text={section.text}
-          className="p-4"
-        />
-      ))}
-
-      <div className="px-0 pt-8 pb-14 sm:px-8 sm:pt-8 sm:pb-14 flex flex-wrap gap-8 sm:gap-16 justify-center">
-        {bootcampData.map((bootcamp) => (
-          <Card
-            key={bootcamp.to}
-            img={bootcamp.img}
-            title={bootcamp.title}
-            text={bootcamp.text}
-            to={bootcamp.to}
+    <>
+      <div className="p-4 sm:p-10 dark:text-white">
+        {bootcampSections.map((section, index) => (
+          <TextSection
+            key={index}
+            title={section.title}
+            text={section.text}
+            className="p-4"
           />
         ))}
+
+        <div className="px-0 pt-8 pb-14 sm:px-8 sm:pt-8 sm:pb-14 flex flex-wrap gap-8 sm:gap-16 justify-center">
+          {bootcampData.map((bootcamp) => (
+            <Card
+              key={bootcamp.to}
+              img={bootcamp.img}
+              title={bootcamp.title}
+              text={bootcamp.text}
+              to={bootcamp.to}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

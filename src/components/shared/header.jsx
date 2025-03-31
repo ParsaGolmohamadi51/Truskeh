@@ -73,7 +73,7 @@ const Header = () => {
         {[
           { to: "/", label: "خانه" },
           { to: "/bootcamps", label: "بوت‌کمپ‌ها" },
-          { to: "/services", label: "حوزه‌های فعالیت" },
+          { to: "/products", label: "محصولات" },
           { to: "/order", label: "سفارش سایت" },
           { to: "/about", label: "درباره ما" },
         ].map(({ to, label }) => (
