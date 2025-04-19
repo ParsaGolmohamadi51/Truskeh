@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="p-2 sm:p-8 flex flex-wrap flex-row justify-around items-center gap-8 shadow-[0_-1px_7px_rgba(0,233,86,1)] dark:shadow-[0_-2px_7px_rgba(255,74,0,1)] dark:text-white">
+    <footer className="pb-4">
+      <div className="p-1 sm:p-8 flex flex-wrap flex-row justify-around items-center gap-8 bg-[#b9b9b9] dark:bg-transparent dark:text-white">
         <div className="w-[36rem] flex flex-col gap-6">
           <img
             src={imgLogoLight}

@@ -5,6 +5,8 @@ import NotFound from "../pages/error/NotFound";
 import Bootcamps from "../pages/courses/bootcamps";
 import About from "../pages/about/about";
 import ContactUs from "../pages/contact/ContactUs";
+import Order from "../pages/order/order";
+import OrderWeb from "../pages/order/OrderWeb";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,8 @@ const router = createBrowserRouter([
       { path: "/Bootcamps", element: <Bootcamps /> },
       { path: "/About", element: <About /> },
       { path: "/contact", element: <ContactUs /> },
+      { path: "/order", element: <Order /> },
+      { path: "/order-web", element: <OrderWeb /> },
     ],
   },
 ]);

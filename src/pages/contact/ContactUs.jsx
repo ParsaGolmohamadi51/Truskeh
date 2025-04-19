@@ -6,7 +6,7 @@ import iconWhatsApp from "../../assets/icons/icons8-whatsapp-30.png";
 import iconLinkedIn from "../../assets/icons/icons8-linkedin.png";
 import iconInstagram from "../../assets/icons/icons8-instagram-30.png";
 import { Link } from "react-router-dom";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
 const ContactUs = () => {

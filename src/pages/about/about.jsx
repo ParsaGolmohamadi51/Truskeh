@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-200 min-h-screen py-12 px-6 sm:px-16 flex flex-col items-center">
+    <div className="  text-gray-900 dark:text-gray-200 min-h-screen py-12 px-6 sm:px-16 flex flex-col items-center">
       <section className="max-w-4xl text-center">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-green-600 dark:text-orange-500 mb-4">
           درباره تروسکه
