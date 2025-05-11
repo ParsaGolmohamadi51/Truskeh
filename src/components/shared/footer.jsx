@@ -1,14 +1,13 @@
-import imgLogoLight from "../../assets/images/logo-light.jpg";
 import imgLogoDark from "../../assets/images/logo-dark-rbg.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="pb-4">
+    <footer className="">
       <div className="p-1 sm:p-8 flex flex-wrap flex-row justify-around items-center gap-8 bg-[#b9b9b9] dark:bg-transparent dark:text-white">
         <div className="w-[36rem] flex flex-col gap-6">
           <img
-            src={imgLogoLight}
+            src={imgLogoDark}
             alt="Logo"
             className="w-12 h-12 dark:hidden"
           />

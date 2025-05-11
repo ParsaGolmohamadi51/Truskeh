@@ -10,6 +10,7 @@ import personalZanko from "../../assets/images/personal-img/zanko.png";
 import PersonnelYashar from "../../assets/images/personal-img/yashar.png";
 import PersonnelEhsan from "../../assets/images/personal-img/ehsan.png";
 import PersonnelNima from "../../assets/images/personal-img/nima.png";
+import PersonnelMazyar from "../../assets/images/personal-img/mazyar.png"
 import gifAI from "../../assets/images/GIFs/videoAI.mp4";
 
 const Home = () => {
@@ -37,9 +38,10 @@ const Home = () => {
           </div>
         </div>
         <TextSection
+          className="mt-7"
           title={<h4>حوزه های فعالیت</h4>}
           text={
-            <div className="flex flex-row justify-evenly flex-wrap gap-y-10 gap-x-4">
+            <div className="flex flex-row justify-evenly flex-wrap gap-y-10 gap-x-4 mt-4">
               <ActivityCard
                 img={imgWeb}
                 title="برنامه نویسی وب"
@@ -71,7 +73,7 @@ const Home = () => {
         />
         <div className="flex flex-row flex-wrap gap-6 justify-around">
           <PersonalCard
-            img={personalParsa}
+            img={PersonnelMazyar}
             name={"مازیار بهمنی"}
             description={"عضوبنیان نخبگان محقق CV و NLP"}
             position="بک اند و امنیت سایت"

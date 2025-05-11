@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import ThemeSwitcher from "./ThemeSwitcher";
-import imgLogoLight from "../../assets/images/logo-long-light.jpg";
 import imgLogoDark from "../../assets/images/logo-long-dark-removebg.png";
 
 const Header = () => {
@@ -53,7 +52,7 @@ const Header = () => {
         {/* لوگو */}
         <div className="flex justify-center items-center absolute left-1/2 transform -translate-x-1/2 md:translate-x-0 md:static">
           <img
-            src={imgLogoLight}
+            src={imgLogoDark}
             className="w-auto h-12 block dark:hidden md:w-auto"
             alt="Light Logo"
           />
