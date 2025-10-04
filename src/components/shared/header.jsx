@@ -8,13 +8,13 @@ const Header = () => {
 
   return (
     <header className="w-full p-3 md:p-5 flex justify-between items-center text-[#136E22] dark:text-white relative">
-      {/* دکمه باز و بسته کردن منو */}
+
       <button
         className="md:hidden p-2 rounded bg-gray-200 dark:bg-gray-700 transition-transform duration-300"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         {isMenuOpen ? (
-          // آیکون ضربدر وقتی منو باز است
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -30,7 +30,7 @@ const Header = () => {
             />
           </svg>
         ) : (
-          // آیکون منو وقتی بسته است
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -49,7 +49,7 @@ const Header = () => {
       </button>
 
       <div className="flex items-center gap-8">
-        {/* لوگو */}
+
         <div className="flex justify-center items-center absolute left-1/2 transform -translate-x-1/2 md:translate-x-0 md:static">
           <img
             src={imgLogoDark}
@@ -63,7 +63,6 @@ const Header = () => {
           />
         </div>
 
-        {/* منو */}
         <nav
           className={`absolute top-16 right-0 bg-[#0a473e] shadow-lg p-5 flex flex-col gap-3 rounded-l-xl w-auto transform ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
@@ -91,7 +90,6 @@ const Header = () => {
         </nav>
       </div>
 
-      {/* آیکون کاربر + تغییر تم */}
       <div className="flex gap-2">
         <Link className="group"></Link>
         <ThemeSwitcher />

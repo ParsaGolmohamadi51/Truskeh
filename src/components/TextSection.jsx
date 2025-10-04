@@ -24,14 +24,3 @@ const TextSection = ({
 };
 
 export default TextSection;
-
-// نحوه استفاده از این کامپوننت
-{
-  /* <TextSection
-  title="درباره ما"
-  text="تروسکه یک آکادمی آموزشی است که به علاقه‌مندان برنامه‌نویسی کمک می‌کند تا مهارت‌های خود را به سطح حرفه‌ای برسانند. هدف ما ارائه آموزش‌های کاربردی و پروژه‌محور است."
-  className="bg-blue-100 p-6 rounded-lg"
-  titleClass="text-blue-600"
-  textClass="text-gray-700"
-/> */
-}
